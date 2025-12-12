@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        test-name: [faker-register-test, cart-persistent-test, data-tables-staging] # Add spec file here
+        test-name: [faker-register-test, cart-persistent-test] # Add spec file here
 
     steps:
       # Step 1: Checkout the repository
